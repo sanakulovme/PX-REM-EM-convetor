@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PX REM EM - Convetor</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	<header>
+		<div class="row">
+			<p class="actionType">PX</p>
+			<input oninput="action()" type="number" class="style input">
+			<select oninput="action()" name="fromto" id="option" class="style">
+				<option value="px-to-rem-em">PX to EM, REM</option>
+				<option value="rem-em-to-px">EM, REM to PX</option>
+			</select>
+			<div id="result" class="style"></div>
+			<p class="actionType">REM, EM</p>
+		</div>
+	</header>
+
+	<script src="./script.js"></script>
+</body>
+</html>
